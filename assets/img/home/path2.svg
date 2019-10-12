@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="598px" height="243px" viewBox="0 0 598 243" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="665" height="263"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage-copy" transform="translate(0.000000, -700.000000)">
+            <g id="Group-2" transform="translate(0.000000, 692.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g mask="url(#mask-2)" fill="#4173F3" fill-opacity="0.2" id="Rectangle">
+                    <g transform="translate(-219.000000, -13.000000)">
+                        <rect transform="translate(478.871368, 154.338091) rotate(15.000000) translate(-478.871368, -154.338091) " x="135.371368" y="133.338091" width="687" height="42"></rect>
+                        <rect transform="translate(234.535276, 171.024156) rotate(15.000000) translate(-234.535276, -171.024156) " x="-4.96472382" y="161.024156" width="479" height="20"></rect>
+                        <rect transform="translate(440.460956, 84.000000) rotate(15.000000) translate(-440.460956, -84.000000) " x="129.960956" y="81" width="621" height="6"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
