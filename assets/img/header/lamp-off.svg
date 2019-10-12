@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="185px" viewBox="0 0 64 185" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Light</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="homepage-dark" transform="translate(-1295.000000, 0.000000)">
+            <g id="Light" transform="translate(1298.000000, 0.000000)">
+                <circle id="Oval" stroke="#CACACA" stroke-width="5" fill-opacity="0.4" fill="#E6B31E" cx="29" cy="153" r="29"></circle>
+                <path d="M17.8287229,136.311343 C17.8287229,136.311343 3.36432088,141.126018 8.82071723,158.891358 C10.5299683,160.503945 11.7509201,154.503682 12.5829309,148.631219 C13.4302477,142.650723 19.3847082,141.971007 17.8287229,136.311343 Z" id="Path-2" fill="#FFFFFF" transform="translate(12.838700, 147.734460) rotate(-3.000000) translate(-12.838700, -147.734460) "></path>
+                <path d="M48.3624692,163.336817 C48.3624692,163.336817 38.4493256,166.714342 41.2107811,175.04247 C42.5677996,175.878448 42.8590499,172.447639 44.6771924,169.632613 C46.2203835,167.243295 49.5978062,166.270831 48.3624692,163.336817 Z" id="Path-2-Copy" fill="#FFFFFF" transform="translate(44.676894, 169.253578) rotate(-160.000000) translate(-44.676894, -169.253578) "></path>
+                <path d="M25.570599,124 C25.570599,138.419991 25.570599,147.083186 25.570599,149.989584 C25.570599,152.930937 23.7614214,156.625933 19.8323748,156.625933 C15.9033282,156.625933 14,154.869481 14,149.989584 C14,145.109686 21.3414317,145.109686 25.570599,145.109686 C29.4216807,145.109686 31.244563,145.109686 31.039246,145.109686 C38.9231973,144.840928 42.8651729,146.46756 42.8651729,149.989584 C42.8651729,155.272619 40.9820362,156.625933 36.9670074,156.625933 C34.2903216,156.625933 32.3144011,154.413817 31.039246,149.989584 C31.2383356,134.084068 31.2383356,125.420873 31.039246,124" id="Path-3" stroke="#CACACA" stroke-width="2"></path>
+                <rect id="Rectangle" fill="#CACACA" x="27" y="0" width="4" height="89"></rect>
+                <path d="M15,103 C15,95.2680135 21.0441559,89 28.5,89 C35.9558441,89 42,95.2680135 42,103 L42,124 L15,124 L15,103 Z" id="Combined-Shape" stroke="#CACACA" stroke-width="5" fill-opacity="0.6" fill="#CACACA"></path>
+                <path d="M17,105.5 L41.5192308,100.5" id="Line" stroke="#CACACA" stroke-width="5" stroke-linecap="square"></path>
+                <path d="M17,116.5 L41.5192308,111.5" id="Line" stroke="#CACACA" stroke-width="5" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
