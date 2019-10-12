@@ -1,0 +1,201 @@
+@import '../config';
+
+.light {
+  background-color: $bg-color-light;
+  color: $primary-color-light;
+  a {
+    color: $primary-color-light;
+  }
+}
+
+.dark {
+  background-color: $bg-color-dark;
+  color: $primary-color-dark;
+  a {
+    color: $primary-color-dark;
+  }
+}
+
+.home {
+  height: calc(100vh - 100px);
+  box-sizing: border-box;
+
+  h1, h2 {
+    font-weight: 700;
+    margin: 0;
+  }
+
+  h3 {
+    font-weight: 300;
+    margin: 0;
+  }
+
+  .icons {
+    margin-top: 1rem;
+
+    a {
+      padding: 0.4rem;
+
+      &:hover {
+        color: $third-color;
+        @include easeOut;
+      }
+    }
+  }
+
+  .shadowed {
+    -webkit-box-shadow: 3px 10px 20px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 3px 10px 20px 0px rgba(0,0,0,0.3);
+    box-shadow: 3px 10px 20px 0px rgba(0,0,0,0.3);
+    margin-bottom: 0.5rem;
+  }
+
+  .text-secondary {
+    color: $secondary-color;
+  }
+}
+
+@include mediaLg {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .home {
+    padding: 5rem 3rem;
+    display: grid;
+    position: relative;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 1rem;
+
+    .home-img {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .lg-intro {
+      position: relative;
+
+      div {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        text-align: right;
+      }
+    }
+
+    .sm-intro {
+      grid-column: 1 / 3;
+      text-align: right;
+    }
+
+    .decoration {
+      position: absolute;
+      left: 0;
+      bottom: 3rem;
+      max-width: 60%;
+    }
+  }
+}
+
+@include mediaXl {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3{
+    font-size: 1.5rem;
+  }
+
+  .home {
+    padding: 6rem;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+
+    .home-img {
+      max-width: 800px;
+    }
+  }
+}
+
+@include mediaMd {
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+  
+  .home {
+    display: block;
+    padding: 0;
+    height: max-content;
+    min-height: calc(100vh - 100px);
+
+    .home-img {
+      width: 100%;
+      position: relative;
+    }
+
+    .lg-intro {
+      padding: 2rem 2rem 1rem 3rem;
+    }
+
+    .sm-intro {
+      padding: 0 2rem 3rem 3rem;
+    }
+
+    .decoration {
+      display: none;
+    }
+  }
+}
+
+@include mediaSm {
+  h1 {
+    font-size: 2.1rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+  
+  .home {
+    height: max-content;
+    min-height: calc(100vh - 5rem);
+  }
+}
+
+@include ipadProLg {
+  .home {
+    height: 768px;
+  }
+}
+
+@include ipadProSm {
+  .home {
+    height: 626px;
+  }
+}
