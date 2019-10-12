@@ -6,7 +6,7 @@
   </div>
 
   <a href="#top" id="logo">
-    <img [src]="colorTheme.isLight ? '../assets/img/header/logo.svg' : '../assets/img/header/logo-dark.svg'" alt="F." />
+    <img [src]="colorTheme.isLight ? 'assets/img/header/logo.svg' : 'assets/img/header/logo-dark.svg'" alt="F." />
   </a>
 
   <nav [className]="showMenu? 'menu show' : 'menu'">
@@ -24,12 +24,12 @@
         <a href="#" class="nav-link">Contact</a>
       </li>
       <li class="nav-item">
-        <img id="lamp-switch" [src]="colorTheme.isLight ? '../assets/img/header/switch-on.svg' : '../assets/img/header/switch-off.svg'" alt="" (click)="colorTheme.toggleColorTheme()"/>
+        <img id="lamp-switch" [src]="colorTheme.isLight ? 'assets/img/header/switch-on.svg' : 'assets/img/header/switch-off.svg'" alt="" (click)="colorTheme.toggleColorTheme()"/>
       </li>
     </ul>
   </nav>
 
-  <img id="lamp" [src]="colorTheme.isLight? '../assets/img/header/lamp-on.svg' : '../assets/img/header/lamp-off.svg'" alt="" (click)="colorTheme.toggleColorTheme()"/>
+  <img id="lamp" [src]="colorTheme.isLight? 'assets/img/header/lamp-on.svg' : 'assets/img/header/lamp-off.svg'" alt="" (click)="colorTheme.toggleColorTheme()"/>
 
-  <img *ngIf="colorTheme.isLight" id="lamp-light" src="../assets/img/header/lights.svg" alt=""/>
+  <img *ngIf="colorTheme.isLight" id="lamp-light" src="assets/img/header/lights.svg" alt=""/>
 </div>
