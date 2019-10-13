@@ -1,0 +1,160 @@
+@import '../config';
+
+.light {
+  background-color: $bg-color-light;
+  color: $primary-color-light;
+
+  a {
+    @include easeOut;
+    color: $primary-color-light;
+  }
+
+  .line {
+    background: $primary-color-light;
+  }
+}
+
+.dark {
+  background-color: $bg-color-dark;
+  color: $primary-color-dark;
+
+  a {
+    @include easeOut;
+    color: $primary-color-dark;
+  }
+
+  .line {
+    background: $primary-color-dark;
+  }
+}
+
+h2 {
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+
+h3 {
+  font-weight: 500;
+  margin: 0;
+}
+
+.contact {
+  padding: 4rem 8rem 3rem 8rem;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      @include easeOut;
+      color: $third-color;
+    }
+  }
+
+  p {
+    font-weight: 500;
+  }
+
+  .outerbox {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+    .box {
+      display: flex;
+      text-align: left;
+  
+      .line {
+        width: 3px;
+        height: 27px;
+        margin-right: 10px;
+        display: block;
+      }
+  
+      h3 {
+        display: block;
+      }
+    }
+
+    .box:first-child {
+      margin-right: 5rem;
+    }
+  }
+}
+
+#footer {
+  text-align: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 0.8rem;
+  position: relative;
+}
+
+@include mediaLg {
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+}
+
+@include mediaXl {
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact {
+    padding: 4rem 10rem 3rem 10rem;
+  }
+}
+
+@include mediaMd {
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  .contact {
+    padding: 3rem 5rem 2.5rem 5rem;
+
+    .outerbox {
+      margin-bottom: 2rem;
+      .box:first-child {
+        margin-right: 2.5rem;
+      }
+    }
+  }
+}
+
+@include mediaSm {
+  h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .contact {
+    padding: 2rem 3.5rem 2rem 3.5rem;
+
+    .outerbox {
+      margin-bottom: 1.5rem;
+      .box:first-child {
+        margin-right: 2rem;
+      }
+    }
+  }
+}
+

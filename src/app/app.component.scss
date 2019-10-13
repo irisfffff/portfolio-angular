@@ -45,32 +45,6 @@ $montserrat: 'Montserrat', sans-serif;
   }
 }
 
-.light {
-  color: $primary-color-light;
-  a {
-    color: $primary-color-light;
-  }
-
-}
-
-.dark {
-  color: $primary-color-dark;
-  a {
-    color: $primary-color-dark;
-  }
-
-}
-
-#footer {
-  text-align: center;
-  justify-content: center;
-  font-weight: 300;
-  font-size: 0.8rem;
-  position: relative;
-  top: -2rem;
-  height: 0;
-}
-
 @include mediaLg {
   h1 {
     font-size: 2.5rem;

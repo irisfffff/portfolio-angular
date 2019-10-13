@@ -6,10 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  isLight: boolean = true;
-
-  toggleThemeColor(): void {
-    this.isLight = !this.isLight;
-  }
   
 }

@@ -11,17 +11,20 @@
 
   <nav [className]="showMenu? 'menu show' : 'menu'">
     <ul [className]="showMenu? 'menu-nav show' : 'menu-nav'">
+      <li class="nav-item top">
+        <a href="#top" class="nav-link">Home</a>
+      </li>
       <li class="nav-item">
         <a href="#about" class="nav-link">About</a>
       </li>
       <li class="nav-item">
         <a href="#projects" class="nav-link">Projects</a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a href="#" class="nav-link">Footprints</a>
-      </li>
+      </li> -->
       <li class="nav-item">
-        <a href="#" class="nav-link">Contact</a>
+        <a href="#contact" class="nav-link">Contact</a>
       </li>
       <li class="nav-item">
         <img id="lamp-switch" [src]="colorTheme.isLight ? 'assets/img/header/switch-on.svg' : 'assets/img/header/switch-off.svg'" alt="" (click)="colorTheme.toggleColorTheme()"/>

@@ -99,6 +99,7 @@
 
 @include mediaLg {
   .header {
+    
     .menu-btn {
       display: none;
     }
@@ -113,6 +114,10 @@
         padding: 2rem 1.5rem;
         &.current > a {
           color: $secondary-color;
+        }
+
+        &.top {
+          display: none;
         }
       }
 
@@ -172,7 +177,7 @@
       height: 300px;
       display: flex;
       justify-content: flex-end;
-      border-radius: 8%;
+      border-radius: 0 0 8% 8%;
       visibility: hidden;
 
       &.show {
