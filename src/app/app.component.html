@@ -1,10 +1,7 @@
 <div [className]="isLight ? 'content light' : 'content dark'">
   <img src="assets/img/bg.jpg" alt="" id="bg-img">
-
-  <app-header></app-header>
-  <app-home></app-home>
-  <app-about></app-about>
-  <app-projects></app-projects>
+  
+  <router-outlet></router-outlet>
 
   <div id="footer">Copyright &copy; 2019 Zhuowen Fang</div>
 </div>
