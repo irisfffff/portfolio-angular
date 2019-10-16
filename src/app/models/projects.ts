@@ -39,7 +39,7 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 4,
-    title: "Battle of Idiots",
+    title: "AR Cooperative Game",
     images: ['game.png', 'connect.jpg', 'game1.jpg', 'game1-pc.jpg', 'game2.jpg', 'game3.jpg', 'lose.jpg'],
     brief: 'Multimodal interaction cooperative game created in Unity and Vuforia AR Engine.',
     description: ['An AR game built in Unity in support of Vuforia Engine and Unity’s own Network Engine UNet in which players should collaborate to score enough points within a certain time frame. The game can run on iOS, Android and also PC.', 'There are three mini games that each requires a different method of interaction to play: swiping, gravity and tapping.', 'Once all players are connected to the server (here the initiator’s device acts as server), cameras on each device will be activated and players can pick different mini games by choosing different markers. Their progress will be added up and shown in common progress bar. When the progress bar is filled up within the time limit, the players win. Otherwise, they lose.', 'The game can easily be expanded by adding more different mini games or by adding a level structure.'],
