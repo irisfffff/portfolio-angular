@@ -10,7 +10,25 @@ export class Project {
 
 export const PROJECTS: Project[] = [
   {
-    id: 1,
+    id: 9,
+    title: "Brumer",
+    images: ['brumer.png', 'quick-timer.png'],
+    brief: 'Try to be the most handy timer app',
+    description: ['A mobile timer app that is able to store sequential settings for a better user experience implemented in React Native.'],
+    relatedLink: [['My Source Code', 'https://github.com/irisfffff/Brumer'], ['Slider custormized from', 'https://github.com/bartgryszko/react-native-circular-slider']],
+    video: ''
+  },
+  {
+    id: 8,
+    title: "Seen On Me",
+    images: ['after-upload.png', 'view.jpg', 'profile.jpg', 'upload.jpg'],
+    brief: 'Junction 2019 hackathon project under track degital retail',
+    description: ['An attempt at reducing transportation waste for e-commerce websites by enabling a widget for customer try-on image sharing across platforms.'],
+    relatedLink: [['Our Demo', 'https://aqueous-stream-81943.herokuapp.com/retailer']],
+    video: ''
+  },
+  {
+    id: 7,
     title: "Disaster Response",
     images: ['app_illustration.png', 'group_work.jpg', 'final.jpg', 'final2.jpg', 'certificate.jpg'],
     brief: 'Winning project of EIT Digital Summer School 2019 Ljubljana in the area of Digital Transformation for Urban Resilience',
@@ -19,7 +37,7 @@ export const PROJECTS: Project[] = [
     video: ''
   },
   {
-    id: 2,
+    id: 6,
     title: "eHiver",
     images: ['web_illustration.png', 'landing.jpg', 'team.jpg'],
     brief: 'Exploring sustainable online sharing platform - A hands on in class tech startup experience.',
@@ -28,7 +46,7 @@ export const PROJECTS: Project[] = [
     video: 'https://www.youtube.com/embed/UpuNNQ-tx-k'
   },
   {
-    id: 3,
+    id: 5,
     title: "Eugo",
     images: ['app_illustration.png', 'webpage.png'],
     brief: 'The first local bike sharing startup founded in Sweden. Let\'s go biking, go healthy and go green.',
@@ -47,7 +65,7 @@ export const PROJECTS: Project[] = [
     video: 'https://player.vimeo.com/video/310622641'
   },
   {
-    id: 5,
+    id: 3,
     title: "Meetrz",
     images: ['prototype.png', 'userflow.png'],
     brief: 'Virtual Facilitator for making new connections - Interaction design in practice',
@@ -56,7 +74,7 @@ export const PROJECTS: Project[] = [
     video: 'https://www.youtube.com/embed/TDrxumVsJts'
   },
   {
-    id: 6,
+    id: 2,
     title: "EIT Alumni Meetup",
     images: ['illustration.png', 'poster.png'],
     brief: 'Poster design for the EIT Chinese student alumni meetup',
@@ -65,7 +83,7 @@ export const PROJECTS: Project[] = [
     video: ''
   },
   {
-    id: 7,
+    id: 1,
     title: "NUI in Digital Timer",
     images: ['illustration.png', '1.jpg', '2.jpg', '3.jpg'],
     brief: 'A study of Natural User Interface in everyday digital application - timer, exploring new design possibilities',
